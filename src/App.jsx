@@ -3,7 +3,7 @@ import axios from "axios";
 import { Plus, Trash2, Check } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const apiUrl = "//13.60.227.31:5000";
+const apiUrl = "http://13.60.227.31:5000";
 export default function TodoApp() {
   const [todos, setTodos] = useState([]);
   const [input, setInput] = useState("");
